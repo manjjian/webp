@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>컴퓨터 기술 소개 웹 페이지</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{background-color : rgb(255, 230, 234);
+        color : rgb(26, 26, 97)}
+        h1{text-align: center;
+        color: rgb(135, 33, 33);
+        size: 60;}
+        h2,p{text-align: center;
+        color: rgb(53, 46, 84);
+        size: 30;}
+
+        
+
+</style>
+    
+<body>
+    <div id="container">
+        <header>
+            <h1>스마트폰</h1>
+           
+        </header>
+        <section class="intro">
+            <p>스마트폰은 컴퓨터를 접목한 무선 휴대 전화기이다. PC에서 실행되는 운영체제를 탑재한 것이 특징이다. 일반 휴대 전화기와 달리 웹서핑, 이메일, 오피스 등 여러 가지 PC의 기능을 가진 경우를 일컫는다.</p>
+        </section>
+        <section class="toc">
+            <h2>목차</h2>
+            <ul>
+                <li>역사</li>
+                <li>안드로이드</li>
+                <li>아이폰</li>
+            </ul>
+        </section>
+        <section class="history">
+            <h2>역사</h2>
+            <p>최초의 스마트폰은 사이먼(Simon)으로 추정된다. IBM사가 1992년에 설계하여 그 해에 미국 네바다 주 라스베이거스에서 열린 컴퓨터 산업 박람회에서 처음 선보였다.</p>
+        </section>
+        <section class="android">
+            <h2>안드로이드</h2>
+            <p>안드로이드(Android)는 휴대 전화, 태블릿, 휴대용 장치를 위한 운영 체제와 미들웨어, 사용자 인터페이스(UI)를 갖춘 오픈소스 운영체제이다. 이메일 클라이언트, 단문 메시지 서비스(SMS), 멀티미디어 메시지 서비스(MMS), 음성 전화 그리고 웹 브라우저가 기본으로 제공된다.</p>
+        </section>
+        <section class="iphone">
+            <h2>아이폰</h2>
+            <p>아이폰(iPhone)은 2007년 1월 9일에 발표한 멀티터치 방식의 시리즈이다. 미국 샌프란시스코에서 열린 맥월드 2007에서 애플의 회장인 스티브 잡스가 발표했다.</p>
+        </section>
+        <section class="sample">
+            <h2>샘플</h2>
+            <p>스마트폰 샘플</p>
+            <div class="image-gallery">
+                <img src="https://via.placeholder.com/150" alt="스마트폰 1">
+                <img src="https://via.placeholder.com/150" alt="스마트폰 2">
+                <img src="https://via.placeholder.com/150" alt="스마트폰 3">
+                <img src="https://via.placeholder.com/150" alt="스마트폰 4">
+            </div>
+        </section>
+        <footer>
+            <p>Copyright 2022 by Kitos</p>
+        </footer>
+    </div>
+</body>
+</html>
