@@ -1,0 +1,73 @@
+body {
+  background-color: AliceBlue;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+  border-bottom: 1px dashed skyblue;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+}
+
+#toc ul {
+  list-style-position: inside;
+  padding-left: 10px;
+  border: 1px dashed skyblue;
+}
+
+a {
+  text-decoration: none;
+  color: #0056b3;
+}
+
+a:hover {
+  color: #003d80;
+}
+
+p {
+  text-indent: 1em;
+  line-height: 1.6;
+}
+
+h2 {
+  color: blue;
+  text-shadow: 2px 2px 4px #c0c0c0;
+}
+
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery img {
+  width: 150px;
+  height: auto;
+  border: 1px solid #ddd;
+}
+
+footer {
+  background-color: orange;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
