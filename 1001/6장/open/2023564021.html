@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>별 문자 출력하기</title>
+</head>
+<body>
+    <h1>별 문자 출력하기</h1>
+    <script>
+        function printStar(count) {
+            let stars = '';
+            for (let i = 0; i < count; i++) {
+                stars += '*';
+            }
+            document.write(stars);
+        }
+
+        let inputString = prompt("정수를 입력하세요", "0");
+        let number = parseInt(inputString);
+
+        if (isNaN(number) || number <= 0) {
+            document.write("입력 오류 입니다.");
+        } else {
+            printStar(number);
+        }
+    </script>
+</body>
+</html>
